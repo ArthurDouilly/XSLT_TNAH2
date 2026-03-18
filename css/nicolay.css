@@ -1,0 +1,145 @@
+/*** mise en forme des pages ***/
+
+/** éléments généraux **/
+
+/* body */
+
+body { 
+    background-color: white;
+}
+
+/* barre de navigation (nav) */
+
+nav{
+    background-color: darkred;
+    display:flex; /* flex permet d'avoir un élément dynamique */
+    flex-direction: column; /* column permet d'afficher le titre et les liens en colonne */
+    align-items: center;
+}
+
+/* main */
+
+main{
+    display:flex;
+    flex-direction:row; /* row permet d'afficher les sections côte-à-côte */
+}
+
+/* divs */
+
+.texte{ /* le texte s'affichant à gauche à l'écran */
+    padding:5px;
+    width: 80%;
+    margin-right:2%;
+}
+
+.notice{ /* la notice s'affichant à droite */
+    margin-top: 0.5%;
+    width:80%;
+    padding:5px;
+    background-color: rgb(228, 203, 165);
+}
+
+.div-liens{
+    display: flex;
+    background-color: blanchedalmond;
+    margin-inline: 0.2%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+footer{
+    display:flex;
+    justify-content: center;
+    font-size:12px;
+}
+
+/*** mise en forme des contenus textuels ***/
+
+/** tableaux **/
+
+table{
+    font-size:14px;
+    gap:2px;
+}
+
+th{
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+
+td{
+    background-color: rgb(255, 245, 230);
+}
+
+/** mise en forme des liens **/
+
+/* liens par défaut */
+
+a{
+    text-decoration: none; /* none permet de retirer la mise en page par défaut des liens */
+    color:darkred;
+}
+
+a:hover{
+    text-decoration:underline; /* avec hover, souligne au survol du lien */
+    color:darkred;
+}
+
+/* liens dans l'élément 'nav' */
+
+.nav-a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+/** mise en forme du texte **/
+
+/* titres */
+
+h1{
+    font-weight: bold;
+}
+
+.nav-h1{
+    color:white;
+}
+
+/* corps de texte */
+
+p{
+    text-align:justify;
+}
+
+.signed{
+    float:right;
+}
+
+.add{
+    font-style: italic;
+}
+
+/** mise en forme des listes **/
+
+.nav-ul{
+    list-style: none; /* supprime les puces de la liste */
+    color:white;
+    display:flex;
+    flex-direction: row;
+    align-items: space-around;
+    gap:10px; /* permet d'avoir un espace fixe entre les éléments de la liste */
+}
+
+.ul-liens{
+    list-style: none;
+    display:flex;
+    align-items: space-around;
+    flex-direction: row;
+    gap:5px;
+}

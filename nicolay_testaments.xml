@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Extraits de testaments et codicilles de la famille Nicolay, 1708-1815</title>
+            <author>Marie Elisabeth de Nicolay</author>
+            <author>Aymard Jean de Nicolay</author>
+            <author>Philippine Léontine Potier de Novion, veuve Nicolay</author>
+            <respStmt>
+               <resp>encoded by</resp>
+               <persName>Arthur Douilly</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>École nationale des Chartes</publisher>
+            <address>
+               <addrLine>65 Rue de Richelieu, 75002 Paris</addrLine>
+            </address>
+            <date>2026</date>
+            <availability>
+               <licence>Utilisation à des fins pédagogiques uniquement, conformément aux droits d'auteur.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <list>
+               
+               <item n="1"> <!-- ci-dessous, la source du testament #1 -->
+                  <bibl>
+                     <title type="titre_texte">Testament de Marie-Elisabeth Nicolay</title>
+                     <date type="date_texte">1708</date>
+                     <author>Marie-Elisabeth Nicolay</author>
+                     <title type="titre_livre">Histoire de la maison de Nicolay, T.1, pièce 479, p.502-504</title>
+                     <editor>Arthur de Boislisle</editor>
+                     <date type="date_livre" from-iso="1873" to-iso="1875">1873-1875</date>
+                     <settlement>Paris</settlement>
+                     <publisher>Gallica, bibliothèque nationale de France</publisher>
+                     <idno>bpt6k8517958</idno>
+                  </bibl>
+                  <p>Le testament de Marie-Elisabeth Nicolay, daté du début du XVIIIe siècle, est encore très marqué par l'esprit des grands enterrements baroques. L'invocation, détaillée, fait appel à un grand nombre de figures religieuses et les processions contiennent encore de nombreuses stipulations concernant la présence de pauvres enfants dans la procession.</p>
+               </item>
+               
+               <item n="2"> <!-- ci-dessous, la source du testament #2 -->
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <repository>Archives nationales, site de Paris</repository>
+                        <collection>Minutier Central des notaires de Paris</collection>
+                        <idno>MC/ET/CXII/805b</idno>
+                        <msName>Testament et codicilles d'<name type="author">Aymard Jean Nicolay</name></msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>
+                           <date>1785</date>
+                           <p>Le testament d'Aymard Jean Nicolay, Premier Président de la Chambre des Comptes de Paris, surprend par la sobriété du ton adopté et le peu de références religieuses malgré une catholicité assumée. Testament holographe écrit sur papier</p></summary>
+                     </msContents>
+                  </msDesc>
+               </item>
+               
+               <item n="3"> <!-- ci-dessous, la source du testament #3 -->
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <repository>Archives nationales, site de Paris</repository>
+                        <collection>Minutier Central des notaires de Paris</collection>
+                        <idno>MC/ET/XII/869</idno>
+                        <msName>Testament et codicilles de <name type="author">Philippine Léontine Potier de Novion</name></msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>
+                           <date>1815</date>
+                           <p>
+                              Le testament de Philippine Léontine Potier de Novion, veuve d'Aymard
+                           Charles Marie de Nicolaï, Premier Président de la Chambre des Comptes de
+                           Paris (mort guillotiné en 1794). Nous nous sommes intéressés ici au premier codicille, rédigé plusieurs années après le testament lui-même. Testament holographe écrit sur papier.
+                           </p>
+                        </summary>
+                     </msContents>
+                  </msDesc>
+               </item>
+            </list>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="1" xml:id="nicolay1708"> <!-- Texte #1 : Nicolay 1708 -->
+            <div type="protocol" xml:id="proto">
+               <opener>
+                  <add source="editorialization by Boislisle">
+                     <date when="1708-01-02">2 janvier 1708</date><date from-iso="1708-02-14"
+                        to-iso="1708-02-18">14 et 18 février 1708</date>, Testament de
+                     Marie-Elisabeth Nicolay</add>
+               </opener>
+               <opener> Au nom de la très sainte <name type="religious_figure">Trinité, le Père, le
+                     Fils et le Saint Esprit.</name>
+               </opener>
+               <p n="1"> Je donne mon âme et mon coeur à <name type="religious_figure">Dieu</name>.
+                  J’abandonne volontiers les biens de ce monde, qui ne sont que vanitez, et dont je
+                  ne me suis que trop servy à cet usage. Je m’en repens avec beaucoup de doulleurs,
+                  comm’ aussy de tous les péchez que j’ay commis pendant cette misérable vie. Je
+                  croy un seul <name type="religious_figure">Dieu, mon créateur et mon
+                     rédempteur</name>, et tout ce que <orgName ref="#CAT">l’Eglise catholique,
+                     apostolique et romaine</orgName> croy. Je recommande mon âme aux intercessions
+                  de la glorieuse <name type="religious_figure">vierge Marie</name> et de <name
+                     type="religious_figure">sainte Elizabeth</name>, mes patronnes, et à celles de <name type="religious_figure">mon ange gardien</name>, de <name
+                     type="religious_figure">saint Joseph</name> et de tous <name
+                     type="religious_figure">les saints et saintes</name> qui jouissent du bonheur
+                  que j’espère par leur assistance, que je les prie dès à présent de ne me pas
+                  refuser à l’heure de ma mort. Je dis avec un profond respect les noms de <name
+                     type="religious_figure">Jésus</name> et de <name type="religious_figure"
+                     >Marie</name>, que je souhaite pouvoir prononcer avec connoissance au dernier
+                  moment de ma vie. </p>
+               <p n="2"> Cecy est mon testament, que je veux et ordonne qui soit exécutté dans toutte sa
+                  teneur comme il s’ensuit : </p>
+            </div>
+            <div type="body_text" subtype="burial_specifications" xml:id="bt01">
+               <p n="3"> Premièrement, <eventName type="burial">je veux être enterrée auprès du corps de
+                     mon très cher et très honoré père</eventName>, dans la cave de <placeName ref="#GOU"
+                        >Goussainville</placeName>, et que l’on fasse dire dans l’église de ce
+                  lieu un <eventName type="mass">service</eventName>
+                  <num value="1" type="frequency" subtype="years">annuel</num> pour le repos de mon
+                  âme. Je laisse pour cela trois cens livres. <eventName type="burial">Je veux que
+                     l’on me fasse un service sans aucune tenture ny cérémonies</eventName>, dans la
+                  paroisse sur laquelle je mourray, soit à <placeName>Paris</placeName> ou à la
+                  campagne. <eventName type="burial">Je veux que cent pauvres y assistent, moitié
+                     filles et moitié garçons : on donnera à chacun de ses pauvres enfans trois
+                     livres, et on leur dira de prier Dieu pour moy</eventName>. </p>
+            </div>
+            <div type="body_text" subtype="religious_demands" xml:id="bt02">
+               <p n="4" source="summary added by Boislisle">
+                  <!-- This part is a summary and thus not written as is in the original document. -->
+                  [Legs : <objectName type="money">250 l.</objectName> aux <orgName>Hospitalières</orgName> de la <placeName>place Royale</placeName>, pour dire
+                     <eventName type="mass">250 messes</eventName>, et autant à l’<orgName>Ave-Maria</orgName> ; <objectName type="money">500
+                     l.</objectName> à <orgName>l’église</orgName> de <placeName
+                     ref="#GOU">Goussainville</placeName> pour <eventName type="mass">célébrer à
+                     perpétuité, le 20 février, l’anniversaire de la mort du père de la
+                     testatrice</eventName> ; <objectName type="money">500 l. aux pauvres
+                     malades</objectName> de <placeName ref="#GOU">Goussainville</placeName>,
+                     <objectName type="money">300 l. à ceux</objectName>
+                     d’<placeName>Ivors</placeName>, et autant à ceux de <placeName ref="#VIL"
+                     >Villaines</placeName> et <placeName ref="#MIG">Mignaux</placeName> ; aux <name
+                     type="organization">dames de Sainte-Marie</name> de la <placeName>rue
+                     Saint-Jacques</placeName>, <objectName type="furniture">tous les meubles de
+                     l’appartement qu’elle occupe dans leur maison</objectName>; <objectName
+                     type="money">1,000 l.</objectName> à l’<orgName
+                     >Hôtel-Dieu</orgName>, autant à l’<orgName>Hôpital-Général</orgName>
+                  ; <objectName type="money">500 l.</objectName> pour <eventName type="charity"
+                     >délivrer quelques prisonniers pour dettes</eventName> ; <objectName
+                     type="money">1,500 l.</objectName> aux <orgName
+                     >Hospitalières</orgName> de la <placeName ref="#ROY">place Royale</placeName> ;
+                     <objectName type="money">200 l.</objectName> aux <orgName
+                     >Anglaises</orgName> du <placeName>faubourg Saint-Antoine</placeName> ;
+                     <objectName type="money">1,000 l. aux pauvres</objectName> de <orgName>sa paroisse</orgName>, autant à la <orgName
+                     >Marmite des malades</orgName>, et <objectName type="money">200 l. pour les
+                     pauvres veuves et filles</objectName> de la <placeName>rue de
+                     Reuilly</placeName> dont elle prend soin depuis longtemps.] </p>
+            </div>
+            <spanGrp n="1">
+               <span target="#proto">Le protocole est très long. L'invocation, particulièrement baroque, est typique des testaments du XVIIe siècle. Dates et titre ont été ajoutés par Boislisle lors de l'édition.</span>
+               <span target="#bt01">Les demandes concernant l'enterrement sont partagées entre demandes de simplicité des rites, ce qui est commun aux Nicolay, et demandes baroques d'inclusion et de charité envers de pauvres enfants lors des funérailles.</span>
+               <span target="#bt02">Cette partie a été largement remaniée par Boislisle. Il s'agit de fait d'un résumé des demandes de la testatrice. On peut noter qu'un grand nombre de dons sont destinés à des institutions de charité et au clergé régulier.</span>
+            </spanGrp>
+         </div>
+
+         <div n="2" xml:id="nicolay1785"> <!-- Texte #2 : Nicolay 1785 -->
+            <div type="protocol" xml:id="proto2">
+               <opener> Cecy est mon testament </opener>
+            </div>
+            <div type="body_text" subtype="burial_specifications" xml:id="bt201">
+               <p n="1"> Je veux que <eventName type="burial">mon enterrement</eventName> soit fait avec
+                  la plus grande modestie, sans tentures, sans sonnerie, sans invitation et que mon
+                  corps soit transporté à <placeName ref="#GOU">Goussainville</placeName> pour y
+                  être inhumé dans le caveau de mes pères. </p>
+            </div>
+            <div type="body_text" subtype="religious_demands" xml:id="bt202">
+               <p n="2"> Je donne à <persName ref="#CUR_STP">Mr. le Curé</persName> de <placeName
+                     ref="#STP">St. Paul</placeName>
+                  <num value="1200">douze cent</num>
+                  <objectName type="money">livres</objectName> dont <num value="300">trois cent
+                     livres</num> seront pour qu’il emploie à faire dire des <eventName type="mass"
+                     >messes</eventName> pour le repos de mon âme et dont le surplus sera par lui
+                     <eventName type="charity">distribué en aumônes</eventName> ainsi qu’il avisera
+                  bon estre. </p>
+               <p n="3"> Je donne à <persName ref="#CUR_GOU">Mr. le Curé</persName> de <placeName
+                     ref="#GOU">Goussainville</placeName> la somme de <num value="900">neuf
+                     cent</num>
+                  <objectName type="money">livres</objectName> dont <num value="300">trois
+                     cent</num> pour des <eventName type="mass">messes</eventName> et le surplus
+                  sera par lui distribué en <eventName type="charity">aumônes</eventName>. </p>
+               <p n="4"> Je donne à <persName ref="#CUR_OSN">Mr. le Curé</persName> d’<placeName
+                     ref="#OSN">Osny</placeName>
+                  <num value="600">six cent</num>
+                  <objectName type="money">livres</objectName> dont <num type="fraction" value="300"
+                     >moitié</num> pour des <eventName type="mass">messes</eventName> et le reste en
+                     <eventName type="charity">aumônes</eventName>. </p>
+               <p n="5"> Je donne aux <orgName ref="#AVE">dames de l’Ave Maria</orgName>
+                  <num value="900">neuf cent</num>
+                  <objectName type="money">livres</objectName> à la charge de faire acquitter à mon
+                  inhumation <num value="300">trois cent messes</num> le plus tôt qu’elles en auront
+                  la commodité. </p>
+               <p n="6"> Je donne aux <orgName ref="#PMN">pères minimes</orgName>
+                  <num value="300">trois cent</num>
+                  <objectName type="money">livres</objectName> pour acquitter un <num value="300"
+                     >pareil nombre</num> de <eventName type="mass">messes</eventName> à mon
+                     <eventName type="burial">inhumation</eventName>. </p>
+               <p n="7"> Je veux qu’il soit remis tous les ans à la <persName ref="#MAR">sœur
+                     Marguerite</persName> un [...] laquelle sera attachée à ma <orgName
+                     ref="#PAR_GOU">paroisse</orgName> de <placeName ref="#GOU"
+                     >Goussainville</placeName>, la somme de <num value="120">cent vingt</num>
+                  <objectName type="money">livres</objectName> qu’elle emploiera ou a ses commodités
+                  personnelles ou au soulagement de quelques malades. </p>
+            </div>
+            <div type="body_text" subtype="pensions" xml:id="bt203">
+               <p n="8"> Je donne à <persName ref="#FRA">mon fils aîné premier président du grand
+                     conseil</persName> ma <objectName type="box">boîte d’or où est le[...] de la
+                     mère</objectName>, ensembles toutes mes <objectName type="medal">médailles d’or
+                     et d’argent</objectName>. </p>
+               <p n="9"> Je donne à <persName ref="#CLA">mon fils l’évêque</persName> de
+                     <placeName>Béziers</placeName> mon <objectName type="diamond">diamant
+                     jaune</objectName>. </p>
+               <p n="10"> Je donne a <persName ref="#CHA">mon fils premier président de la chambre des
+                     comptes</persName> la <objectName type="box">boîte d’or qui m’a été léguée par
+                     Mr. de Anugune</objectName> ensemble ma <objectName type="jewelry">bague de
+                     Turquoise</objectName>. </p>
+               <p n="11"> Je prie <persName ref="#NOV">Mlle de Novion</persName> ma belle-fille d’accepter
+                  le <objectName type="diamond">diamant bleu que j’ai eu de l'exécution du testament
+                     de Mme sa grand-mère</objectName>. </p>
+               <p n="12"> Je donne à <persName ref="#TIL" cert="high">Mme de Téllievres</persName> la
+                     <objectName type="jewelry">bague qui m’a été léguée par ma soeur</objectName>
+                  ensemble <objectName type="jewelry">deux petites bagues dans lesquels on a enfermé
+                     du bois de la Vraie Croix</objectName>. </p>
+               <p n="13"> Je donne à <persName ref="#GEO" cert="low">mon fils</persName> de
+                     <placeName>Goussainville</placeName>
+                  <objectName type="cutlery">ma tasse de [...] avec la soucoupe</objectName>
+                  ensemble <objectName type="jewelry">ma bague qui ferme un chiffre</objectName>. </p>
+               <p n="14"> Je fais à <persName ref="#AIM">Aimard</persName> un petit présent de <num
+                     value="100">cent</num>
+                  <objectName type="money">louis</objectName> dont il offrira la <num
+                     type="fraction" value="50">moitié</num> à <persName>Mr. L’abbé son
+                     précepteur</persName>. </p>
+            </div>
+            <spanGrp n="2">
+               <span target="#proto2">Le protocole est ici réduit au minimum possible, se contentant de déclarer le testament. Pas d'invocation ici.</span>
+               <span target="#bt201">Comme pour le protocole, les demandes liées à l'enterrement sont simples et sans fioritures.</span>
+               <span target="#bt202">On observe ici la prédilection du testateur pour le clergé régulier, notamment pour les ordres franciscains et mendiants, ou sinon pour le clergé local.</span>
+               <span target="#bt203">Dans cette troisième partie dédiée aux dons intra-familiaux, on retrouve l'ordre de succession filial. Certains enfants restent non identifiés.</span>
+            </spanGrp>
+         </div>
+
+         <div n="3" xml:id="nicolay1815"> <!-- Texte #3 : Nicolay 1815 -->
+            <div type="protocol" xml:id="proto3">
+               <opener> Au nom du <name type="religious_figure">Fils, du Père et du
+                     Saint-Esprit</name> Ainsi Soit-il</opener>
+               <p n="1">Je soussignée <persName ref="#NOV">Philippine Léontine Potier de
+                     Novion</persName>, veuve de <persName ref="#CHA">Aymard Charles Marie de
+                     Nicolay</persName>, demeurant de droit à la Commune de <placeName ref="#COU"
+                     >Courances</placeName> et de fait à <placeName ref="#PRC">Paris Rue de la
+                     Chaise n°10</placeName>.</p>
+               <p n="2">Pour les mêmes raisons que celles insérées dans <objectName type="testament"
+                     >mon testament</objectName> concernant le partage de mes biens que j’ai fait
+                  entre mes enfants et mes petits enfants en date du <date when="1812-08-13">treize
+                     août mille huit cents douze</date>, auquel je n’entends déroger, voulant au
+                  contraire qu’il soit exécuté dans tout son contenu, j’ai voulu faire connaître à
+                  mes enfants et petits enfants mes dernières volontés que j’ai rédigées ci-écrites
+                  de ma main.</p>
+               <p n="3">Je recommande, comme je l’ai fait, par mon testament mon âme à <name
+                     type="religious_figure">Dieu</name>.</p>
+            </div>
+
+            <div type="body_text" subtype="burial_specifications" xml:id="bt301">
+               <p n="4">Je veux que mon corps soit transporté à ma terre de <placeName ref="#COU"
+                     >Courances</placeName> pour y être inhumé. Je veux que <eventName type="burial"
+                     >mes funérailles</eventName> soient faites avec la plus grande simplicité, et
+                  qu’il soit célébré, mon corps présent, dans l’église de la Paroisse de Courances,
+                  une grande messe pour le repos de mon âme.</p>
+            </div>
+
+            <div type="body_text" subtype="religious_demands" xml:id="bt302">
+               <p n="5">Je charge mes enfants et petits enfants de distribuer ou faire distribuer
+                  une somme de <num value="1500">mille cinq cent</num>
+                  <objectName type="money">francs</objectName> aux pauvres les plus nécessiteux de
+                  la <orgName ref="#PAR_SLP">Paroisse sur laquelle je demeurai à Paris lors de mon
+                     décès</orgName>. Je les invite à consulter <persName ref="#CUR_SLP">Monsieur le
+                     Curé de cette Paroisse</persName> pour faire la distribution de cette somme,
+                  afin de mieux connaître, s’il se peut, ceux qui ont le plus besoin de secours.</p>
+               <p n="6">Je veux aussi que mes enfants et petits enfants donnent à la <orgName
+                     ref="#PAR_COU">fabrique de Courances</orgName> une <objectName type="religious"
+                     >inscription</objectName> sur l’état du revenu de <num value="50"
+                     >cinquante</num>
+                  <objectName type="money">francs annuels</objectName>. Je donne cette <objectName
+                     type="religious">inscription</objectName> à ladite <orgName ref="#PAR_COU"
+                     >fabrique</orgName> à la charge par elle de faire célébrer tous les ans dans
+                  l’église de la <placeName ref="#COU">Commune de Courances</placeName> une
+                     <eventName type="mass">messe basse</eventName> (le quantième qui correspondra
+                  autant que se pourra à la date de mon décès) pour le repos de mon âme.</p>
+            </div>
+
+            <div type="body_text" subtype="pensions" xml:id="bt303">
+               <p n="7">Je veux que les <objectName type="pension">pensions viagères</objectName>
+                  que je viens de faire soient payées de <num value="6" type="frequency"
+                     subtype="months">six en six mois</num> à compter du jour de mon décès. Que
+                  toutes soient exemptes de la retenue des Impositions, et que les droits auxquels
+                  les pensions et legs que je viens de faire soient à la charge de ma succession. Je
+                  veux de plus que lesdites pensions viagères soient incessibles et non
+                  imposable.</p>
+            </div>
+
+            <div type="eschatocol" xml:id="escha3">
+               <p n="8">Je n’entends par le présent Codicille déroger à mon testament du <date
+                     when="1812-08-13">treize août mille huit cents douze</date>. Voulant qu’il soit
+                  exécuté ainsi que le présent en tout leur contenu comme étant mes intentions et
+                  dernières volontés.</p>
+               <closer>Fait ci <eventName>rédigé le présent</eventName> que j’ai écrit de ma main
+                  sur une feuille de papier timbré contenant quatre pages, que j’ai cotées et
+                  signées par première et dernière. Fait à <placeName>Paris Rue de la Chaise
+                     n°10</placeName> ce <date when="1814-10-05">cinq octobre mille huit cents
+                     quatorze</date>.</closer>
+               <signed>Potier de Nicolay</signed>
+            </div>
+
+            <!-- End of the text excerpt being encoded. The section below contains only annotations which help form the skeleton of a critical apparatus -->
+
+            <spanGrp n="3">
+               <!-- I hesitated between span and interp here -->
+               <span target="#proto3">Ce document, identifié comme le premier codicille, est un ajout au précédent testament rédigé en 1812. L'invocation est limitée et ressemble aux testaments plus sobres de la fin du XVIIIe siècle.</span>
+               <span target="#bt301">Les demandes liées à l'enterrement sont similaires à celles d'autres Nicolay, avec une demande expresse de "simplicité" des funérailles.</span>
+               <span target="#bt302">Potier de Novion ajoute deux demandes ici: ses héritiers doivent faire acte de charité dans la paroisse où elle vit à Paris, et acheter pour elle une inscription dans la paroisse de Courances, la seigneurie de sa famille. Ses demandes religieuses sont similaires à celles des Nicolay, mme si on peut remarquer une baisse des demandes de messes.</span>
+               <span target="#bt303">Dans cette partie, Potier de Novion spécifie ses demandes concernant la gestion des pensions que ses héritiers devront verser. Celles-ci devront être bi-annuelles, gratuites et non-réversibles.</span>
+               <span target="#escha3">Potier de Novion termine par une indication des conditions d'écritures de ce codicille et indique que celui-ci n'annule ni ne remplace le précédent testament.</span>
+            </spanGrp>
+         </div>
+      </body>
+   </text>
+</TEI>
